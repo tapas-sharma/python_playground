@@ -8,10 +8,11 @@ import sys
 from datetime import datetime
 
 #creates a connection string that we can use to connect to the db server
-#using FreeTDS and UnixODBC, setting TDS_VERSION to 7.2 since we do not support 7.1
+#using FreeTDS and UnixODBC is supposed to installed
+#setting TDS_VERSION to 7.2 since we do not support 7.1
 def get_connection_string(server_ip, server_port, username, password):
     return "DRIVER={FreeTDS};SERVER=%s;PORT=%s;UID=%s;PWD=%s;TDS_VERSION=7.2;" \
-               % (server_ip, str(server_port),username, password)
+               % (server_ip, str(server_port), username, password)
 
 #returns a connection object to use to fire queries
 def get_connection(server_ip, port, username, password, max_retry=3):
@@ -20,8 +21,10 @@ def get_connection(server_ip, port, username, password, max_retry=3):
     conn = None
     while retry < max_retry:
         try:
-            print "LOG: Checking with socket to see if the socket is open and reachable"
-            #done to not stick in the tcp timeout of 15 mins which is a limitation in pyodbc
+            print "LOG: Checking with socket call to see if the socket is \
+            open and reachable"
+            #done to not stick in the tcp timeout of 15 mins
+            #which is a limitation in pyodbc
             #check with socket to connect with mssql server
             test_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             test_socket.settimeout(1)
@@ -65,7 +68,8 @@ def execute_query(conn, query):
 def main():
     if len(sys.argv) <> 6:
         print "Error(%d): Please use the script as follows" % len(sys.argv)
-        print "Usage: python sqlserver_connect.py DB_IP DB_PORT Username \'Password\' \"QUERY\""
+        print "Usage: python sqlserver_connect.py\
+         DB_IP DB_PORT Username \'Password\' \"QUERY\""
         return
     ip = sys.argv[1]
     port = int(sys.argv[2])

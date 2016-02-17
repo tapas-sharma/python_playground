@@ -1,0 +1,242 @@
+2016-02-17 12:23:43,916 ERROR AlwaysOnParent: Failed to install signal handler: global name 'signal' is not defined
+2016-02-17 12:23:43,916 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 309, in run
+    self._register_signal_handler()
+  File "prod_demo.py", line 269, in _register_signal_handler
+    signals = [ signal.SIGTERM, signal.SIGHUP ]
+NameError: global name 'signal' is not defined
+
+2016-02-17 12:27:30,007 ERROR MonitorDaemon run failed: global name 'util' is not defined
+2016-02-17 12:27:30,008 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 331, in run
+    self.spwan_monitor_children()
+  File "prod_demo.py", line 275, in spwan_monitor_children
+    running_cluster_ids, stopped_cluster_ids = self.get_list_of_cluster_ids()
+  File "prod_demo.py", line 112, in get_list_of_cluster_ids
+    sqlite_handle = util.get_sqlite_handle(GLOBAL_LB_SQLITE_FILE)
+NameError: global name 'util' is not defined
+
+2016-02-17 12:27:44,969 ERROR MonitorDaemon run failed: global name 'util' is not defined
+2016-02-17 12:27:44,970 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 331, in run
+    self.spwan_monitor_children()
+  File "prod_demo.py", line 275, in spwan_monitor_children
+    running_cluster_ids, stopped_cluster_ids = self.get_list_of_cluster_ids()
+  File "prod_demo.py", line 112, in get_list_of_cluster_ids
+    sqlite_handle = util.get_sqlite_handle(GLOBAL_LB_SQLITE_FILE)
+NameError: global name 'util' is not defined
+
+2016-02-17 12:27:49,973 ERROR MonitorDaemon run failed: global name 'util' is not defined
+2016-02-17 12:27:49,973 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 331, in run
+    self.spwan_monitor_children()
+  File "prod_demo.py", line 275, in spwan_monitor_children
+    running_cluster_ids, stopped_cluster_ids = self.get_list_of_cluster_ids()
+  File "prod_demo.py", line 112, in get_list_of_cluster_ids
+    sqlite_handle = util.get_sqlite_handle(GLOBAL_LB_SQLITE_FILE)
+NameError: global name 'util' is not defined
+
+2016-02-17 12:28:32,119 ERROR MonitorDaemon run failed: global name 'util' is not defined
+2016-02-17 12:28:32,125 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 331, in run
+    self.spwan_monitor_children()
+  File "prod_demo.py", line 275, in spwan_monitor_children
+    running_cluster_ids, stopped_cluster_ids = self.get_list_of_cluster_ids()
+  File "prod_demo.py", line 112, in get_list_of_cluster_ids
+    sqlite_handle = util.get_sqlite_handle(GLOBAL_LB_SQLITE_FILE)
+NameError: global name 'util' is not defined
+
+2016-02-17 12:28:37,130 ERROR MonitorDaemon run failed: global name 'util' is not defined
+2016-02-17 12:28:37,131 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 331, in run
+    self.spwan_monitor_children()
+  File "prod_demo.py", line 275, in spwan_monitor_children
+    running_cluster_ids, stopped_cluster_ids = self.get_list_of_cluster_ids()
+  File "prod_demo.py", line 112, in get_list_of_cluster_ids
+    sqlite_handle = util.get_sqlite_handle(GLOBAL_LB_SQLITE_FILE)
+NameError: global name 'util' is not defined
+
+2016-02-17 12:28:42,135 ERROR MonitorDaemon run failed: global name 'util' is not defined
+2016-02-17 12:28:42,136 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 331, in run
+    self.spwan_monitor_children()
+  File "prod_demo.py", line 275, in spwan_monitor_children
+    running_cluster_ids, stopped_cluster_ids = self.get_list_of_cluster_ids()
+  File "prod_demo.py", line 112, in get_list_of_cluster_ids
+    sqlite_handle = util.get_sqlite_handle(GLOBAL_LB_SQLITE_FILE)
+NameError: global name 'util' is not defined
+
+2016-02-17 12:30:09,376 ERROR Failed to find list of all clusters: no such table: lb_summary
+2016-02-17 12:30:09,376 ERROR MonitorDaemon run failed: global name 'util' is not defined
+2016-02-17 12:30:09,376 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 331, in run
+    self.spwan_monitor_children()
+  File "prod_demo.py", line 275, in spwan_monitor_children
+    running_cluster_ids, stopped_cluster_ids = self.get_list_of_cluster_ids()
+  File "prod_demo.py", line 134, in get_list_of_cluster_ids
+    util.close_sqlite_resources(sqlite_handle, db_cursor)
+NameError: global name 'util' is not defined
+
+2016-02-17 12:30:15,283 ERROR Failed to find list of all clusters: no such table: lb_summary
+2016-02-17 12:30:15,284 ERROR MonitorDaemon run failed: global name 'util' is not defined
+2016-02-17 12:30:15,284 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 331, in run
+    self.spwan_monitor_children()
+  File "prod_demo.py", line 275, in spwan_monitor_children
+    running_cluster_ids, stopped_cluster_ids = self.get_list_of_cluster_ids()
+  File "prod_demo.py", line 134, in get_list_of_cluster_ids
+    util.close_sqlite_resources(sqlite_handle, db_cursor)
+NameError: global name 'util' is not defined
+
+2016-02-17 12:30:21,192 ERROR Failed to find list of all clusters: no such table: lb_summary
+2016-02-17 12:30:21,192 ERROR MonitorDaemon run failed: global name 'util' is not defined
+2016-02-17 12:30:21,192 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 331, in run
+    self.spwan_monitor_children()
+  File "prod_demo.py", line 275, in spwan_monitor_children
+    running_cluster_ids, stopped_cluster_ids = self.get_list_of_cluster_ids()
+  File "prod_demo.py", line 134, in get_list_of_cluster_ids
+    util.close_sqlite_resources(sqlite_handle, db_cursor)
+NameError: global name 'util' is not defined
+
+2016-02-17 12:30:27,100 ERROR Failed to find list of all clusters: no such table: lb_summary
+2016-02-17 12:30:27,100 ERROR MonitorDaemon run failed: global name 'util' is not defined
+2016-02-17 12:30:27,100 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 331, in run
+    self.spwan_monitor_children()
+  File "prod_demo.py", line 275, in spwan_monitor_children
+    running_cluster_ids, stopped_cluster_ids = self.get_list_of_cluster_ids()
+  File "prod_demo.py", line 134, in get_list_of_cluster_ids
+    util.close_sqlite_resources(sqlite_handle, db_cursor)
+NameError: global name 'util' is not defined
+
+2016-02-17 12:31:27,049 ERROR Failed to find list of all clusters: no such table: lb_summary
+2016-02-17 12:31:32,957 ERROR Failed to find list of all clusters: no such table: lb_summary
+2016-02-17 12:33:47,560 ERROR Failed to find list of all clusters: no such column: type
+2016-02-17 12:33:53,469 ERROR Failed to find list of all clusters: no such column: type
+2016-02-17 12:34:25,409 ERROR Failed to find list of all clusters: No item with that key
+2016-02-17 12:34:31,319 ERROR Failed to find list of all clusters: No item with that key
+2016-02-17 12:36:38,431 ERROR Failed to find list of all clusters: No item with that key
+2016-02-17 12:36:44,338 ERROR Failed to find list of all clusters: No item with that key
+2016-02-17 12:36:50,250 ERROR Failed to find list of all clusters: No item with that key
+2016-02-17 12:36:55,375 ERROR MonitorDaemon run failed: global name 'glob' is not defined
+2016-02-17 12:36:55,375 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 341, in run
+    self.spwan_monitor_children()
+  File "prod_demo.py", line 285, in spwan_monitor_children
+    running_cluster_ids, stopped_cluster_ids = self.get_list_of_cluster_ids()
+  File "prod_demo.py", line 142, in get_list_of_cluster_ids
+    time.sleep(0.1)
+  File "prod_demo.py", line 269, in _signal_handler
+    self._cleanup_marker_files()
+  File "prod_demo.py", line 181, in _cleanup_marker_files
+    fl = glob.glob('/var/run/a_monitor*')
+NameError: global name 'glob' is not defined
+
+2016-02-17 12:37:01,284 ERROR Failed to find list of all clusters: No item with that key
+2016-02-17 12:37:41,062 ERROR Failed to find list of all clusters: No item with that key
+2016-02-17 12:37:46,976 ERROR Failed to find list of all clusters: No item with that key
+2016-02-17 12:37:52,883 ERROR Failed to find list of all clusters: No item with that key
+2016-02-17 12:37:58,793 ERROR Failed to find list of all clusters: No item with that key
+2016-02-17 12:38:04,704 ERROR Failed to find list of all clusters: No item with that key
+2016-02-17 12:39:51,349 ERROR Failed to read always_on status of clusters: no such table: lb_clusters
+2016-02-17 12:39:57,255 ERROR Failed to read always_on status of clusters: no such table: lb_clusters
+2016-02-17 12:40:53,258 ERROR Failed to read always_on status of clusters: no such table: lb_clusters
+2016-02-17 12:40:59,163 ERROR Failed to read always_on status of clusters: no such table: lb_clusters
+2016-02-17 12:41:05,072 ERROR Failed to read always_on status of clusters: no such table: lb_clusters
+2016-02-17 12:41:10,932 ERROR MonitorDaemon run failed: global name 'glob' is not defined
+2016-02-17 12:41:10,933 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 341, in run
+    self.spwan_monitor_children()
+  File "prod_demo.py", line 295, in spwan_monitor_children
+    running_cluster_ids if self._read_always_on_status(cid)]
+  File "prod_demo.py", line 172, in _read_always_on_status
+    time.sleep(0.1)
+  File "prod_demo.py", line 269, in _signal_handler
+    self._cleanup_marker_files()
+  File "prod_demo.py", line 181, in _cleanup_marker_files
+    fl = glob.glob('/var/run/a_monitor*')
+NameError: global name 'glob' is not defined
+
+2016-02-17 12:41:16,844 ERROR Failed to read always_on status of clusters: no such table: lb_clusters
+2016-02-17 12:41:35,822 ERROR Failed to read always_on status of clusters: no such table: lb_clusters
+2016-02-17 12:41:41,731 ERROR Failed to read always_on status of clusters: no such table: lb_clusters
+2016-02-17 12:41:47,638 ERROR Failed to read always_on status of clusters: no such table: lb_clusters
+2016-02-17 12:42:14,869 ERROR Failed to read always_on status of clusters: no such table: lb_clusters
+2016-02-17 12:42:20,776 ERROR Failed to read always_on status of clusters: no such table: lb_clusters
+2016-02-17 12:43:04,646 ERROR Failed to read always_on status of clusters: Incorrect number of bindings supplied. The current statement uses 0, and there are 1 supplied.
+2016-02-17 12:43:10,556 ERROR Failed to read always_on status of clusters: Incorrect number of bindings supplied. The current statement uses 0, and there are 1 supplied.
+2016-02-17 12:43:31,085 ERROR MonitorDaemon run failed: global name 'always_on_monitor_routine' is not defined
+2016-02-17 12:43:31,086 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 341, in run
+    self.spwan_monitor_children()
+  File "prod_demo.py", line 303, in spwan_monitor_children
+    always_on_monitor_routine, \
+NameError: global name 'always_on_monitor_routine' is not defined
+
+2016-02-17 12:43:36,091 ERROR MonitorDaemon run failed: global name 'always_on_monitor_routine' is not defined
+2016-02-17 12:43:36,091 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 341, in run
+    self.spwan_monitor_children()
+  File "prod_demo.py", line 303, in spwan_monitor_children
+    always_on_monitor_routine, \
+NameError: global name 'always_on_monitor_routine' is not defined
+
+2016-02-17 12:43:41,095 ERROR MonitorDaemon run failed: global name 'always_on_monitor_routine' is not defined
+2016-02-17 12:43:41,095 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 341, in run
+    self.spwan_monitor_children()
+  File "prod_demo.py", line 303, in spwan_monitor_children
+    always_on_monitor_routine, \
+NameError: global name 'always_on_monitor_routine' is not defined
+
+2016-02-17 12:54:09,457 ERROR MonitorDaemon run failed: global name 'read_pid' is not defined
+2016-02-17 12:54:09,461 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 418, in run
+    self.spwan_monitor_children()
+  File "prod_demo.py", line 385, in spwan_monitor_children
+    marker_pid = read_pid(marker_file)
+NameError: global name 'read_pid' is not defined
+
+2016-02-17 12:54:14,465 ERROR MonitorDaemon run failed: global name 'read_pid' is not defined
+2016-02-17 12:54:14,466 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 418, in run
+    self.spwan_monitor_children()
+  File "prod_demo.py", line 385, in spwan_monitor_children
+    marker_pid = read_pid(marker_file)
+NameError: global name 'read_pid' is not defined
+
+2016-02-17 12:54:19,471 ERROR MonitorDaemon run failed: global name 'read_pid' is not defined
+2016-02-17 12:54:19,472 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 418, in run
+    self.spwan_monitor_children()
+  File "prod_demo.py", line 385, in spwan_monitor_children
+    marker_pid = read_pid(marker_file)
+NameError: global name 'read_pid' is not defined
+
+2016-02-17 12:58:09,419 ERROR Invalid command 'start'
+2016-02-17 13:05:50,835 ERROR MonitorDaemon run failed: global name 'gMonitoredClusters' is not defined
+2016-02-17 13:05:50,836 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 441, in run
+    self.spwan_monitor_children()
+  File "prod_demo.py", line 406, in spwan_monitor_children
+    gMonitoredClusters[cid] = p
+NameError: global name 'gMonitoredClusters' is not defined
+
+2016-02-17 13:10:34,085 ERROR MonitorDaemon run failed: global name 'gMonitoredClusters' is not defined
+2016-02-17 13:10:34,086 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 436, in run
+    self.spwan_monitor_children()
+  File "prod_demo.py", line 403, in spwan_monitor_children
+    gMonitoredClusters[cid] = p
+NameError: global name 'gMonitoredClusters' is not defined
+
+2016-02-17 13:10:44,098 ERROR MonitorDaemon run failed: global name 'gMonitoredClusters' is not defined
+2016-02-17 13:10:44,099 ERROR Traceback (most recent call last):
+  File "prod_demo.py", line 436, in run
+    self.spwan_monitor_children()
+  File "prod_demo.py", line 403, in spwan_monitor_children
+    gMonitoredClusters[cid] = p
+NameError: global name 'gMonitoredClusters' is not defined
+
+2016-02-17 13:16:30,441 ERROR Invalid command 'start'

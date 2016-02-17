@@ -1,0 +1,19 @@
+2016-02-17 13:12:04,761 INFO ****************** Monitor starting ********************
+2016-02-17 13:12:09,783 INFO Parent: Spawning a new monitor process for cluster: 2
+2016-02-17 13:12:19,793 INFO Parent: Spawning a new monitor process for cluster: 2
+2016-02-17 13:12:25,684 INFO ****************** Monitor stopping ********************
+2016-02-17 13:12:25,684 INFO Parent: Got signal, prepairing to exit gracefully.
+2016-02-17 13:13:21,891 INFO ****************** Monitor starting ********************
+2016-02-17 13:13:21,929 INFO Parent: Spawning a new monitor process for cluster: 2
+2016-02-17 13:13:29,271 INFO ****************** Monitor stopping ********************
+2016-02-17 13:13:29,271 INFO Parent: Got signal, prepairing to exit gracefully.
+2016-02-17 13:16:28,191 INFO ****************** Monitor stopping ********************
+2016-02-17 13:16:30,441 ERROR Invalid command 'start'
+2016-02-17 13:16:34,966 INFO ****************** Monitor starting ********************
+2016-02-17 13:16:34,981 INFO Parent: Spawning a new monitor process for cluster: 2
+2016-02-17 13:16:40,566 INFO ****************** Monitor stopping ********************
+2016-02-17 13:16:40,567 INFO Parent: Got signal, prepairing to exit gracefully.
+2016-02-17 13:18:23,662 INFO ****************** Monitor starting ********************
+2016-02-17 13:18:23,673 INFO Parent: Spawning a new monitor process for cluster: 2
+2016-02-17 13:18:28,093 INFO ****************** Monitor stopping ********************
+2016-02-17 13:18:28,094 INFO Parent: Got signal, prepairing to exit gracefully.
